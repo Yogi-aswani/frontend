@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Instagram</title>
+</head>
+<style>
+    *{
+        margin:0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    body{
+        padding: 20px;
+    }
+    .container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 31px;
+    }
+    .item{
+        width: 25%;
+        height: 500px;
+        
+        display: inline-block;
+      
+    }
+    
+    .img1{
+        position: relative;
+    }
+    .img2{
+        position: absolute;
+        top: 78px;
+        left: 504px;
+        
+    }
+    .form{
+        width: 100%;
+        border: 1px solid gray;
+        margin-left: 118px;
+        padding: 11px;
+        
+    }
+    .part2{
+       padding: 5px;
+
+    }
+    .inputs{
+        width: 90%;
+        margin-inline: 10px;
+    }
+    .inputs input{
+        width: 100%;
+        padding: 10px;
+        
+    }
+    .instaimmage{
+        width: 50%;
+        height: 129px;
+    }
+    .btn{
+        background-color: blue;
+        border-radius: 5px;
+        color: white;
+        border: none;
+    }
+    .boreder1{
+        border-bottom: 1px solid grey;
+        width: 105px;
+        display: inline-block;
+    }
+    .or{
+        margin-top: 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .or span{
+        color: gray;
+        font-family: math;
+    }
+    .facbook{
+        margin-top: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .facbook i{
+        color: #385185;
+    }
+    .facbook span{
+        color: #385185;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .forgot{
+        margin-top: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .forgot a{
+        color: #385185;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 12px;
+        text-decoration: none;
+    }
+    .form2{
+        width: 100%;
+        border: 1px solid gray;
+        margin-left: 118px;
+        padding: 22px;
+        margin-top: 20px;
+    }
+    .new{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .new a{
+        color: blue;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 15px;
+        text-decoration: none;
+    }
+    .app{
+        width: 100%;
+        margin-left: 118px;
+        padding: 22px;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .app span{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    }
+    .applogo{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 25px;
+    }
+    .gplay{
+        width: 45%;
+    }
+    .micro{
+        width: 39%;
+    }
+    .footer{
+        margin-top: 170px;
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+    }
+    .footer2{
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    }
+    .footer li{
+        margin: 10px ;
+        text-transform: capitalize;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    }
+
+</style>
+<body>
+  <div class="container">
+    <div class="item"> 
+        <img src="home-phones.png" alt="" class="img1" >
+        <img src="screenshot2.png" alt=""   class="img2">
+    </div>
+    <div class="item part2">
+         <div class="form">
+                 <div class="instaimmage">
+                    <img src="instagram.jpeg" alt="" style="margin-inline: 63px;width: 100%;">
+
+                 </div>
+                  <div class="inputs">
+                    <input type="text" placeholder="Phone number,username,and email adress"><br><br>
+                    <input type="password" placeholder="password"><br><br>   
+                    <input type="button" value="Log In" class="btn">
+
+                    <div class="or">
+                        <div class="boreder1"></div>
+                        <span>OR</span>
+                        <div class="boreder1"></div>
+                    </div>
+                    <div class="facbook">
+                        <i class="fa-brands fa-facebook"></i>&nbsp;&nbsp;&nbsp;<span>Log in with Facebook</span>
+                    </div>
+                    <div class="forgot">
+                        <a href="">Forgotten Your password ?</a>
+                    </div>
+
+                  </div>
+         </div>
+         <div class="form2">
+            <div class="new">
+                <a href="">Create new account</a>
+            </div>
+         </div>
+         <div class="app">
+            <span>Get the app.</span>
+            <div class="applogo">
+                <div class="gplay ">
+                    <img src="gplay.png" alt="" style="width: 100%;">
+                </div>
+                <div class="micro">
+                    <img src="micro.png" alt="" style="width: 100%;">
+                </div>
+            </div>
+            
+         </div>
+    </div>
+    
+  </div>
+  <div class="footer">
+    <li class="list">meta</li>
+    <li class="list">about</li>
+    <li class="list">blog</li>
+    <li class="list">help</li>
+    <li class="list">api</li>
+    <li class="list">privacy</li>
+    <li class="list">terms</li>
+    <li class="list">locations</li>
+    <li class="list">instagram lite</li>
+    <li class="list">thereads</li>
+    <li class="list">contact uploading and non users</li>
+    <li class="list">meta verified </li>
+</div>
+<div class="footer2">
+    <span>English (UK) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;© 2024 Instagram from Meta</span>
+</div>
+        
+    
+    
+</body>
+</html>
